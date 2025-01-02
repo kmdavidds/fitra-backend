@@ -21,6 +21,7 @@
           pkgs.go
           pkgs.gotools
           pkgs.golangci-lint
+          pkgs.goose
         ];
 
       };
