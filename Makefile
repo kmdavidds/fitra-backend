@@ -11,5 +11,5 @@ goose/status:
 goose/down:
 	@${goose_env} goose down-to 0
 
-api:
-	go run cmd/http/main.go
+http:
+	go run cmd/server/http.go
